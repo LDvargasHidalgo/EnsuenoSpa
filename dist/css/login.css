@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(
+      135deg,
+      rgba(150, 95, 255, 0.3),
+      rgba(253, 152, 212, 0.3)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-title {
+    color: #965fff;
+    font-family: "Acme", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .custom-input {
+    border: none;
+    border-radius: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    padding-left: 5px;
+  }
+  
+  .custom-input:focus {
+    box-shadow: none;
+  }
+  
+  .custom-password {
+    position: relative;
+  }
+  
+  .custom-password .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #fd98d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 15px;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .login-logo {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px 5px rgba(239, 184, 1, 0.5);
+  }
+  
+  .custom-input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 100px 10px 10px;
+    font-size: 16px;
+  }
+  
+  .custom-input::placeholder {
+    color: rgba(107, 31, 232, 0.4);
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .custom-forgot-password a {
+    color: #cd0ea3;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .custom-login-button {
+    font-family: "Acme", sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  a{
+    text-decoration: none;
+  }

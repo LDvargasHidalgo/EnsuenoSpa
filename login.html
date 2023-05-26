@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administrador de Spa</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/login.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Contenido principal -->
+      <div class="login-container">
+        <form class="login-form">
+          <div class="text-center">
+            <img src="./dist/img/Logo.png" alt="Logo del Spa" class="login-logo" />
+            <h2 class="login-title mt-3">Inicio de Sesión</h2>
+          </div>
+
+          <div class="mb-4">
+            <input
+              type="text"
+              class="form-control custom-input"
+              placeholder="Usuario"
+              style="background-color: #f7e0ff"
+            />
+          </div>
+          <div class="mb-3 custom-password">
+            <input
+              type="password"
+              class="form-control custom-input"
+              placeholder="Contraseña"
+              style="background-color: #f7e0ff"
+            />
+            <span class="toggle-password">
+              <i class="bi bi-eye"></i>
+            </span>
+          </div>
+          <div class="mb-4 custom-forgot-password">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+          <button         
+            type="submit"
+            class="btn btn-primary login-button p-3 mt-4 custom-login-button"
+          >
+          <a href="./index.html" class="nav-link active"> Iniciar Sesión</a>           
+          </button>
+        </form>
+      </div>
+    </main>
+    <!-- Agrega el enlace al archivo JS de Bootstrap -->
+    <script src="https://unpkg.com/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
